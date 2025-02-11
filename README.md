@@ -10,6 +10,7 @@ The **Humble Superhero API** is a simple REST API designed to celebrate the uniq
 - Retrieve a list of superheroes sorted by humility score in descending order.
 - Input validation to ensure correct data entry.
 - Basic unit testing using Jest.
+- Error handle with notifications.
 
 ## Tech Stack
 
@@ -21,8 +22,8 @@ The **Humble Superhero API** is a simple REST API designed to celebrate the uniq
 
 1. Clone the repository:
    ```sh
-   git clone <repo-url>
-   cd humble-superhero-api
+   git clone https://github.com/barkinrl/Superhero-API.git
+   cd <your-folder>
    ```
 2. Install dependencies:
    ```sh
@@ -101,8 +102,10 @@ npm test
 - Add authentication and authorization using JWT.
 - Improve test coverage for edge cases.
 - Deploy the API to a cloud service (e.g., AWS, Vercel).
-- More CRUD operations
+- More CRUD operations could be added but some of them requires ID (so array is not an option maybe hashmap could be use)
 
 ## Conclusion
 
 This project showcases a simple yet functional API with good coding practices, validation, and a foundation for future expansion. Feel free to contribute and make the Humble Superhero API even better!
+
+stay metal \m/
