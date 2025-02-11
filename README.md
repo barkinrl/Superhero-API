@@ -103,6 +103,7 @@ npm test
 - Improve test coverage for edge cases.
 - Deploy the API to a cloud service (e.g., AWS, Vercel).
 - More CRUD operations could be added but some of them requires ID (so array is not an option maybe hashmap could be use)
+- Dockerization could be more robust and sustainable with compose file.(include database)
 
 ## Conclusion
 
